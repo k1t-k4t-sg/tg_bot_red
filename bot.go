@@ -44,9 +44,6 @@ var MifareReq 		= regexp.MustCompile(`(?m)^(Key)([0-9]{1,5})\=.{3,20}$`)
 var MifareAddReq 	= regexp.MustCompile(`(?m)^([aA]dd)\-.{3,20}$`)
 var User_TG 		= map[int64]InteromUserTG{}
 
-/*
-	"6642114797:AAGTzQjMDjDlUaXcwL7hwVWZwvmjnCd_Wdg"
-*/
 func main() {
 	UpdateList()
 	bot, err := tgbotapi.NewBotAPI(AuthTokenTG())
