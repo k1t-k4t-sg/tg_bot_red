@@ -1,0 +1,10 @@
+{
+    "0190": {
+        "ID": "",
+        "Vendor": "Beward DKS (DTMF-открытие при вызове)",
+        "Adress": "Улица Пушкина, дом Колотушкина",
+        "URL": "http://login:pass@192.168.0.10:8080",
+        "FlatStart": 0,
+        "FlatEnd": 0
+    }
+}
